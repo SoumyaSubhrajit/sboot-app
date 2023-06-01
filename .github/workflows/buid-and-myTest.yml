@@ -7,17 +7,7 @@ branches: ["main", "rel-*"]
 env:
 NAME: My-World
 
-jobs:
-  buid: 
-  run-on: ubuntu-20.04
-  timeout-minutes: 5
 
-  steps:
-  - name: Am the user
-   run
-
-- name: Me the user
--run: echo "This is another step in the same job"
 
 test:
  tun-on: ubuntu-22.04
@@ -33,3 +23,18 @@ test:
 
       - name: Another step
         run: echo "This is another step in the same job"
+
+
+
+jobs:
+  buid: 
+  run-on: ubuntu-20.04
+  timeout-minutes: 5
+
+  steps:
+  - name: Am the user
+   run
+
+- name: Me the user
+-run: echo "This is another step in the same job"
+
