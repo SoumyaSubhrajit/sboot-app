@@ -6,6 +6,7 @@ on:
 
 env:
   NAME: Soumya Subhrajit Bag
+  AGE: 20
 
 jobs:
   build:
